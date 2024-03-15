@@ -1,0 +1,142 @@
+/* Styles for the main container */
+.Todocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Styles for headings */
+.Heading {
+  font-size: 2em;
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Styles for h2 elements */
+h2 {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+
+/* Styles for form elements */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="time"] {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for time picker inputs */
+.react-time-picker__clockInput,
+.react-time-picker__inputGroup__input {
+  font-size: 1.5em;
+  width: 3em;
+}
+
+/* Styles for form buttons */
+.form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styles for list items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul div {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #eae8e4d6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+ul div button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styles for individual to-do items */
+.to-do-item {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  background-color: #eae8e4d6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 0 2px rgba(0, 0, 0, 0.24);
+}
+
+/* Additional styles for the top-level to-do item */
+.to-do-top {
+  box-shadow: none;
+}
+
+/* Styles for to-do item text */
+.to-do-item-text {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Styles for to-do item datetime */
+.to-do-item-datetime {
+  display: flex;
+  font-weight: 300;
+  flex-direction: column;
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10px;
+  box-shadow: none;
+}
+
+/* Styles for to-do item buttons */
+.to-do-item-button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #1b7f61;
+}
+
+/* Additional styles for to-do item datetime */
+.to-do-item-datetime {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Styles for buttons within to-do items */
+.to-do-item-buttons {
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
